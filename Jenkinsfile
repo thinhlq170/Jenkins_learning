@@ -4,10 +4,7 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        sh '''
-          echo "Building...."
-          echo "Please wait!"
-        '''
+        echo "Building...."
         
       }
 
@@ -15,10 +12,7 @@ pipeline {
 
     stage("test") {
       steps {
-        sh '''
-          echo "Testing...."
-          echo "Please wait!"
-        '''
+        echo "Testing...."
         
       }
 
@@ -26,10 +20,7 @@ pipeline {
 
     stage("deploy") {
       steps {
-        sh '''
-          echo "Deploying...."
-          echo "Please wait!"
-        '''
+        echo "Deploying...."
         
       }
 
